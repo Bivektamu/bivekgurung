@@ -44,8 +44,6 @@ jQuery(document).ready(function ($) {
             secOf = sectionList[i].offsetTop;
             secH = sectionList[i].offsetHeight;
 
-            console.log(secOf);
-
             if ((wS > (secOf - handler)) && (wS < (secH + secOf - handler))) {
 
                 $('section').removeClass('active');
@@ -68,8 +66,6 @@ jQuery(document).ready(function ($) {
 
         var targetVal = $(target).offset().top - hH;
         
-        console.log($(target).offset().top);
-
         if($('header').hasClass('active_nav')) {
             $('header').removeClass('active_nav');
             $('#navbarNav').slideToggle();

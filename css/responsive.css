@@ -27,10 +27,6 @@
         display: none;
     }
 
-    /* .header_area.active_nav #navbarNav {
-        
-    } */
-
     header {
         box-shadow: var(--box-shadow);
         z-index: 9;
@@ -165,14 +161,22 @@
         left: -30px;
         width: calc(100% + 60px);
         margin-left: 0;
+        top:20px;
     }
 
     .title-h1 {
         font-size: 32px;
     }
+
+    .site-main .skills-area .experience-area {
+        padding: 40px 0 20px;
+    }
+    .site-main .skills-area .experience-area .years-area {
+        background-size: 100%;
+        background-position: 0 15px;
+        padding-left: 0;
+        height: 200px;
+    }
 }
-
-
-
 
 
