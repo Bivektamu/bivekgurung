@@ -150,6 +150,26 @@
         padding: 2rem 20px;
     }
 
+    .site-main .site-banner .site-title h3 {
+        padding-top:0;
+    }
+
+    .site-main .site-banner .banner-image > img, .about-image{
+        width: 80%;
+        margin: auto;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .site-main .skills-area .experience-area .bg-panel {
+        left: -30px;
+        width: calc(100% + 60px);
+        margin-left: 0;
+    }
+
+    .title-h1 {
+        font-size: 32px;
+    }
 }
 
 

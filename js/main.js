@@ -1,6 +1,5 @@
 jQuery(document).ready(function ($) {
 
-
     var card = $(".navbar-brand");
     $(document).on("mousemove",function(e) {
         var xVal = e.pageX, yVal = e.pageY;
@@ -31,7 +30,6 @@ jQuery(document).ready(function ($) {
 
     $(window).scroll(function () {
         wS = $(window).scrollTop();
-        console.log(wS);
 
         if(wS > 10 && $(window).innerWidth() > 990) {
             $('header').addClass('fixed');
@@ -46,6 +44,8 @@ jQuery(document).ready(function ($) {
             secOf = sectionList[i].offsetTop;
             secH = sectionList[i].offsetHeight;
 
+            console.log(secOf);
+
             if ((wS > (secOf - handler)) && (wS < (secH + secOf - handler))) {
 
                 $('section').removeClass('active');
@@ -59,13 +59,14 @@ jQuery(document).ready(function ($) {
         }
     });
 
-
     $('.target').click(function(e) {
         e.preventDefault();
-        console.log('asdf');
+        
 
         var target = $(this).attr('href');
-        var targetVal = $(target).offset().top - $('header').innerHeight();
+
+
+        var targetVal = $(target).offset().top - hH;
         
         console.log($(target).offset().top);
 
