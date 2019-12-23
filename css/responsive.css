@@ -27,6 +27,12 @@
         display: none;
     }
 
+    #mob-tel {
+        display: block;
+        color: var(--title-color);
+        margin-left: auto;
+    }
+
     header {
         box-shadow: var(--box-shadow);
         z-index: 9;
@@ -99,7 +105,7 @@
     }
 
     .site-main .project-area .button-group button{
-        font: normal 500 18px/40px var(--roboto);
+        font: normal 500 18px/40px var(--poppins);
     }
 
     .site-main .about-area .about-title p{
