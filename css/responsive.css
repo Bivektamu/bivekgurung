@@ -124,6 +124,18 @@
 
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 500px){
+
+
+    .site-main .project-area .grid .our-project .link-wrapper {
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-main .project-area .grid .our-project .link-wrapper a {
+        margin: 10px 10px;
+    }
+
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
