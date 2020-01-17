@@ -1,13 +1,14 @@
-/* if the viewport is equal to 1910px or less than that */ 
-@media only screen and (max-width: 1910px){
-    .header_area .main-menu .navbar{
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+    .header_area .main-menu .navbar {
         padding: 1rem;
     }
 
-    .container{
+    .container {
         max-width: 90%;
     }
-/* 
+
+    /* 
     .site-main .skills-area
     {
         padding: 3% 4%;
@@ -16,13 +17,22 @@
 
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1100px) {
     .w-75 {
-        width: 100%!important;
+        width: 100% !important;
+    }
+
+    .site-main .project-area .grid .our-project .link-wrapper {
+        height: 120px;
+    }
+
+    .site-main .project-area .grid .our-project .link-wrapper a {
+        display: block;
+        margin: 10px 30px;
     }
 }
 
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 991px) {
     #navbarNav {
         display: none;
     }
@@ -36,7 +46,7 @@
     header {
         box-shadow: var(--box-shadow);
         z-index: 9;
-        background: #fff!important;
+        background: #fff !important;
     }
 
     .navbar-toggler {
@@ -45,27 +55,28 @@
 
     .navbar-toggler-icon {
         background: transparent;
-        background:var(--primary-color2);
-        height:2px;
+        background: var(--primary-color2);
+        height: 2px;
         position: relative;
         transition: all 0.6s ease;
     }
 
-    .navbar-toggler-icon:before, .navbar-toggler-icon:after {
+    .navbar-toggler-icon:before,
+    .navbar-toggler-icon:after {
         content: '';
         position: absolute;
         width: 100%;
         height: 2px;
-        top:-10px;
+        top: -10px;
         margin: auto;
-        background:var(--primary-color2);
+        background: var(--primary-color2);
         transition: all 0.6s ease;
         left: 0;
         right: 0;
     }
 
     .navbar-toggler-icon:after {
-        top:10px;
+        top: 10px;
     }
 
     .header_area.active_nav .navbar-toggler-icon {
@@ -74,56 +85,56 @@
 
     .header_area.active_nav .navbar-toggler-icon::before {
         transform: rotate(45deg);
-        top:0;
+        top: 0;
     }
 
     .header_area.active_nav .navbar-toggler-icon:after {
         transform: rotate(-45deg);
-        top:0;
+        top: 0;
     }
 }
 
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 792px){
-    .site-main .about-area .about-title h2 > span{
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+    .site-main .about-area .about-title h2>span {
         font-size: 31px;
         letter-spacing: 10px;
     }
 
-    .site-main .skills-area .experience-area .years-area{
+    .site-main .skills-area .experience-area .years-area {
         padding-left: 1%;
         width: 49%;
     }
 
-    .site-main .skills-area .experience-area .bg-panel{
+    .site-main .skills-area .experience-area .bg-panel {
         margin-left: 30%;
-        width: 80%;   
+        width: 80%;
     }
 
-    .site-main .skills-area .experience-area .call-area{
+    .site-main .skills-area .experience-area .call-area {
         padding-left: 3%;
     }
 
-    .site-main .project-area .button-group button{
+    .site-main .project-area .button-group button {
         font: normal 500 18px/40px var(--poppins);
     }
 
-    .site-main .about-area .about-title p{
+    .site-main .about-area .about-title p {
         padding: 0%;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
         width: 20rem;
         margin: 5%;
     }
 
-    
+
 
 
 }
 
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 500px){
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 500px) {
 
 
     .site-main .project-area .grid .our-project .link-wrapper {
@@ -139,36 +150,37 @@
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p,
+    h4,
     /* .site-main .services-area, */
-    .site-main .subscribe-us-area .subscribe
-    {
+    .site-main .subscribe-us-area .subscribe {
         padding: 2%;
         margin: 0%;
     }
 
-    .site-main .site-banner .site-title h1{
+    .site-main .site-banner .site-title h1 {
         font-size: 41px;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem!important;
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 15rem !important;
     }
 
-    .site-main .about-area .about-title h2 > span {
+    .site-main .about-area .about-title h2>span {
         /* font-size: 21px; */
         letter-spacing: 5px;
     }
 
-    #contact.contact-area .social a > i {
+    #contact.contact-area .social a>i {
         padding: 2rem 20px;
     }
 
     .site-main .site-banner .site-title h3 {
-        padding-top:0;
+        padding-top: 0;
     }
 
-    .site-main .site-banner .banner-image > img, .about-image{
+    .site-main .site-banner .banner-image>img,
+    .about-image {
         width: 80%;
         margin: auto;
         display: block;
@@ -179,7 +191,7 @@
         left: -30px;
         width: calc(100% + 60px);
         margin-left: 0;
-        top:20px;
+        top: 20px;
     }
 
     .title-h1 {
@@ -189,6 +201,7 @@
     .site-main .skills-area .experience-area {
         padding: 40px 0 20px;
     }
+
     .site-main .skills-area .experience-area .years-area {
         background-size: 100%;
         background-position: 0 15px;
@@ -196,5 +209,3 @@
         height: 200px;
     }
 }
-
-
