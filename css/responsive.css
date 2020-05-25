@@ -1,211 +1,206 @@
 /* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 1910px) {
-    .header_area .main-menu .navbar {
-        padding: 1rem;
-    }
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
 
-    .container {
-        max-width: 90%;
-    }
+  .container {
+    max-width: 90%;
+  }
 
-    /* 
+  /* 
     .site-main .skills-area
     {
         padding: 3% 4%;
     } */
-
-
 }
 
 @media only screen and (max-width: 1100px) {
-    .w-75 {
-        width: 100% !important;
-    }
+  .w-75 {
+    width: 100% !important;
+  }
 
-    .site-main .project-area .grid .our-project .link-wrapper {
-        height: 120px;
-    }
+  .site-main .project-area .project-wrapper .our-project .link-wrapper {
+    height: 120px;
+  }
 
-    .site-main .project-area .grid .our-project .link-wrapper a {
-        display: block;
-        margin: 10px 30px;
-    }
+  .site-main .project-area .project-wrapper .our-project .link-wrapper a {
+    display: block;
+    margin: 10px 30px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-    #navbarNav {
-        display: none;
-    }
+  .flex-2 > div {
+    width: 100%;
+  }
+  #navbarNav {
+    display: none;
+  }
 
-    #mob-tel {
-        display: block;
-        color: var(--title-color);
-        margin-left: auto;
-    }
+  #mob-tel {
+    display: block;
+    color: var(--title-color);
+    margin-left: auto;
+  }
 
-    header {
-        box-shadow: var(--box-shadow);
-        z-index: 9;
-        background: #fff !important;
-    }
+  header {
+    box-shadow: var(--box-shadow);
+    z-index: 9;
+    background: #fff !important;
+  }
 
-    .navbar-toggler {
-        cursor: pointer;
-    }
+  .navbar-toggler {
+    cursor: pointer;
+  }
 
-    .navbar-toggler-icon {
-        background: transparent;
-        background: var(--primary-color2);
-        height: 2px;
-        position: relative;
-        transition: all 0.6s ease;
-    }
+  .navbar-toggler-icon {
+    background: transparent;
+    background: var(--primary-color2);
+    height: 2px;
+    position: relative;
+    transition: all 0.6s ease;
+  }
 
-    .navbar-toggler-icon:before,
-    .navbar-toggler-icon:after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        top: -10px;
-        margin: auto;
-        background: var(--primary-color2);
-        transition: all 0.6s ease;
-        left: 0;
-        right: 0;
-    }
+  .navbar-toggler-icon:before,
+  .navbar-toggler-icon:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: -10px;
+    margin: auto;
+    background: var(--primary-color2);
+    transition: all 0.6s ease;
+    left: 0;
+    right: 0;
+  }
 
-    .navbar-toggler-icon:after {
-        top: 10px;
-    }
+  .navbar-toggler-icon:after {
+    top: 10px;
+  }
 
-    .header_area.active_nav .navbar-toggler-icon {
-        background: transparent;
-    }
+  .header_area.active_nav .navbar-toggler-icon {
+    background: transparent;
+  }
 
-    .header_area.active_nav .navbar-toggler-icon::before {
-        transform: rotate(45deg);
-        top: 0;
-    }
+  .header_area.active_nav .navbar-toggler-icon::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
 
-    .header_area.active_nav .navbar-toggler-icon:after {
-        transform: rotate(-45deg);
-        top: 0;
-    }
+  .header_area.active_nav .navbar-toggler-icon:after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
 }
 
 /* if the viewport is equal to 340px or less than that */
 @media only screen and (max-width: 792px) {
-    .site-main .about-area .about-title h2>span {
-        font-size: 31px;
-        letter-spacing: 10px;
-    }
+  .site-main .about-area .about-title h2 > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
 
-    .site-main .skills-area .experience-area .years-area {
-        padding-left: 1%;
-        width: 49%;
-    }
+  .site-main .skills-area .experience-area .years-area {
+    padding-left: 1%;
+    width: 49%;
+  }
 
-    .site-main .skills-area .experience-area .bg-panel {
-        margin-left: 30%;
-        width: 80%;
-    }
+  .site-main .skills-area .experience-area .bg-panel {
+    margin-left: 30%;
+    width: 80%;
+  }
 
-    .site-main .skills-area .experience-area .call-area {
-        padding-left: 3%;
-    }
+  .site-main .skills-area .experience-area .call-area {
+    padding-left: 3%;
+  }
 
-    .site-main .project-area .button-group button {
-        font: normal 500 18px/40px var(--poppins);
-    }
+  .site-main .project-area .button-group button {
+    font: normal 500 18px/40px var(--poppins);
+  }
 
-    .site-main .about-area .about-title p {
-        padding: 0%;
-    }
+  .site-main .about-area .about-title p {
+    padding: 0%;
+  }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input {
-        width: 20rem;
-        margin: 5%;
-    }
-
-
-
-
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 20rem;
+    margin: 5%;
+  }
 }
 
 /* if the viewport is equal to 340px or less than that */
 @media only screen and (max-width: 500px) {
+  .site-main .project-area .project-wrapper .our-project .link-wrapper {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+  }
 
+  .site-main .project-area .project-wrapper .our-project .link-wrapper a {
+    margin: 10px 10px;
+  }
 
-    .site-main .project-area .grid .our-project .link-wrapper {
-        height: 130px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .site-main .project-area .grid .our-project .link-wrapper a {
-        margin: 10px 10px;
-    }
-
-    .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
     .site-main .subscribe-us-area .subscribe .subscribe-title p,
     h4,
     /* .site-main .services-area, */
     .site-main .subscribe-us-area .subscribe {
-        padding: 2%;
-        margin: 0%;
-    }
+    padding: 2%;
+    margin: 0%;
+  }
 
-    .site-main .site-banner .site-title h1 {
-        font-size: 41px;
-    }
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input {
-        width: 15rem !important;
-    }
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 15rem !important;
+  }
 
-    .site-main .about-area .about-title h2>span {
-        /* font-size: 21px; */
-        letter-spacing: 5px;
-    }
+  .site-main .about-area .about-title h2 > span {
+    /* font-size: 21px; */
+    letter-spacing: 5px;
+  }
 
-    #contact.contact-area .social a>i {
-        padding: 2rem 20px;
-    }
+  #contact.contact-area .social a > i {
+    padding: 2rem 20px;
+  }
 
-    .site-main .site-banner .site-title h3 {
-        padding-top: 0;
-    }
+  .site-main .site-banner .site-title h3 {
+    padding-top: 0;
+  }
 
-    .site-main .site-banner .banner-image>img,
-    .about-image {
-        width: 80%;
-        margin: auto;
-        display: block;
-        margin-top: 30px;
-    }
+  .site-main .site-banner .banner-image > img,
+  .about-image {
+    width: 80%;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+  }
 
-    .site-main .skills-area .experience-area .bg-panel {
-        left: -30px;
-        width: calc(100% + 60px);
-        margin-left: 0;
-        top: 20px;
-    }
+  .site-main .skills-area .experience-area .bg-panel {
+    left: -30px;
+    width: calc(100% + 60px);
+    margin-left: 0;
+    top: 20px;
+  }
 
-    .title-h1 {
-        font-size: 32px;
-    }
+  .title-h1 {
+    font-size: 32px;
+  }
 
-    .site-main .skills-area .experience-area {
-        padding: 40px 0 20px;
-    }
+  .site-main .skills-area .experience-area {
+    padding: 40px 0 20px;
+  }
 
-    .site-main .skills-area .experience-area .years-area {
-        background-size: 100%;
-        background-position: 0 15px;
-        padding-left: 0;
-        height: 200px;
-    }
+  .site-main .skills-area .experience-area .years-area {
+    background-size: 100%;
+    background-position: 0 15px;
+    padding-left: 0;
+    height: 200px;
+  }
 }
