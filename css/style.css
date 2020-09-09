@@ -233,7 +233,7 @@ span.skills-num {
 
 .site-main .skills-area .first-row .col-lg-4 > .single-brand > img {
   width: 50%;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
 
 .site-main .skills-area .first-row .col-lg-4 > .single-brand:hover {
@@ -552,3 +552,25 @@ button.btn.btn-success {
   animation-iteration-count: 1;
 }
 /* End Footer */
+
+.project-wrapper {
+  display: block;
+  /* overflow: auto; */
+}
+
+.our-project {
+  display: block;
+  float: left;
+  width: calc(33.33% - 20px);
+  margin-right: 30px;
+}
+
+.our-project .img {
+  -webkit-box-shadow: -7px 13px 16px -1px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: -7px 13px 16px -1px rgba(0, 0, 0, 0.66);
+  box-shadow: -7px 13px 16px -1px rgba(0, 0, 0, 0.66);
+}
+
+.project-wrapper .our-project:nth-of-type(3n) {
+  margin-right: 0;
+}

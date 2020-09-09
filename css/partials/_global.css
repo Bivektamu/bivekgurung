@@ -96,5 +96,5 @@ button:active button:hover .btn:active,
   flex-wrap: wrap;
 }
 .flex-2 > div {
-  width: calc(50% - 50px);
+  width: calc(33% - 20px);
 }
