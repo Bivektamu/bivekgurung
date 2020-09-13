@@ -130,8 +130,8 @@
   }
 }
 
-/* if the viewport is equal to 340px or less than that */
-@media only screen and (max-width: 500px) {
+/* if the viewport is equal to 720px or less than that */
+@media only screen and (max-width: 7200px) {
   .site-main .project-area .project-wrapper .our-project .link-wrapper {
     height: 130px;
     display: flex;
@@ -202,5 +202,10 @@
     background-position: 0 15px;
     padding-left: 0;
     height: 200px;
+  }
+
+  .our-project {
+    width: 100%;
+    margin: 0;
   }
 }
