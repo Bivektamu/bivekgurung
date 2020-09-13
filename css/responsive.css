@@ -131,7 +131,7 @@
 }
 
 /* if the viewport is equal to 720px or less than that */
-@media only screen and (max-width: 7200px) {
+@media only screen and (max-width: 720px) {
   .site-main .project-area .project-wrapper .our-project .link-wrapper {
     height: 130px;
     display: flex;
