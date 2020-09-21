@@ -1,3 +1,9 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
 /* if the viewport is equal to 1910px or less than that */
 @media only screen and (max-width: 1910px) {
   .header_area .main-menu .navbar {
